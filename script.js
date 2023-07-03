@@ -36,7 +36,7 @@ function game() {
   let incrementComputerScore = 0;
 
   for (let amountOfGames = 0; amountOfGames < 5; amountOfGames++) {
-    const playerSelection = "rock";
+    const playerSelection = prompt("What is your choice?");
     const computerSelection = getComputerChoice();
     const roundResult = playRound(playerSelection, computerSelection);
 
